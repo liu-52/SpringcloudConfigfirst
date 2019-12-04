@@ -6,8 +6,8 @@ server:
   port: 8085
 zuul:
   routes:
-    api-b:
-      path: /api-b/**
+    api-a:
+      path: /api-a/**
       serviceId: service-feign
 spring:
   application:
