@@ -11,7 +11,7 @@ zuul:
       serviceId: service-feign
 spring:
   application:
-    name: service-zuul1
+    name: service-zuul
   thymeleaf:
     cache: false
     encoding: UTF-8
